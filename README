@@ -1,0 +1,17 @@
+This is really just a re-release of the old URI::URL module as
+distributed in libwww-perl-5.36.  This code is really depreciated. It
+is only made available for those who have really want the old (and now
+broken) RFC 1808 behaviour.
+
+The new URI.pm package implements the new RFC 2396 behaviour and
+contain a URI::URL interface emulation module for old code.  I
+recommend that new code is written based on the new URI.pm interface.
+
+The next libwww-perl release will not include any URI modules and will
+be adjusted to use URI.pm instead of URI::URL.
+
+
+Copyright 1995-1998 Gisle Aas.  <gisle@aas.no>
+
+This library is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.

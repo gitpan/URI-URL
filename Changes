@@ -1,0 +1,7 @@
+1998-11-19   Gisle Aas <aas@sn.no>
+
+   Release 4.16
+
+   Re-release of URL::URL as distributed in libwww-perl-5.36.  The
+   next libwww-perl release will not include the URI modules any
+   more.
